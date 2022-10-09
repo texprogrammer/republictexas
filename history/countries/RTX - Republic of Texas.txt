@@ -1,0 +1,49 @@
+capital = 1998
+
+set_research_slots = 4
+set_stability = 0.75
+set_war_support = 0
+add_command_power = 20
+set_variable = { var = senators_support value = 48 }
+set_variable = { var = senators_total value = 96 }
+set_variable = { var = representatives_support value = 218 }
+set_variable = { var = representatives_total value = 435 }
+set_variable = { var = quorum_low value = 39 }
+set_variable = { var = quorum_medium value = 49 }
+set_variable = { var = quorum_high value = 58 }
+
+# Starting Tech
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = republican
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	republican = 96
+	democratic = 1
+	fascism = 1
+	communism = 1
+	neutrality = 1
+}
+
+1936.1.1 = {
+	set_politics = {
+		ruling_party = republican
+		last_election = "1932.11.3"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+}
+
+1939.1.1 = {
+	set_politics = {
+		ruling_party = republican
+		last_election = "1936.11.3"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+}
